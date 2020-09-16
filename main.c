@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "divisible.h"
-#include "test_divisible.h"
 
 int main()
 {
@@ -22,6 +21,5 @@ int main()
     default:
         printf("Perfectly divisible\n");
     }
-    test_main();
     return 0;
 }
